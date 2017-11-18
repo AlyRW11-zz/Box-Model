@@ -1,0 +1,44 @@
+@media only screen and (max-width : 320px){
+}
+ 
+@media only screen and (min-width : 320px) and (max-width: 480px){  
+}
+
+@media only screen and (min-width : 500px){   
+ .injected-text {
+    margin-bottom: -30px;
+    text-align: center;
+    color: white;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    text-align: center;
+    
+  }
+
+  .blue-box {
+    background-color:#12AAE8;
+    color:lightgrey;
+    border-color: rgb(124, 240, 232);
+    padding: 10px;
+    border-width: 5px;
+  }
+  
+  .rose-box {
+    background-color: #EE9DDC;
+    border-color: white;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 3px 3px 5px #D5D8DC;
+  }
+
+  .green-box {
+    background-color: #22C79D;
+    border-color: white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+  }
+}
